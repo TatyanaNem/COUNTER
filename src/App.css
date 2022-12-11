@@ -1,10 +1,21 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.appContainer {
+  width: 900px;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (prefers-reduced-motion: no-preference) {

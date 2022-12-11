@@ -1,0 +1,55 @@
+.settingsDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #282c34;
+    border: 2px solid #61dafb;
+    border-radius: 10px;
+}
+
+.inputWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.inputWrapper:first-child {
+    margin-bottom: 20px;
+}
+
+.text {
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #61dafb;
+}
+
+.input {
+    padding: 2px 10px;
+    width: 50%;
+    height: 30px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+}
+
+.input:focus {
+    outline: 2px solid #4296ec;
+}
+
+.inputError {
+    padding: 2px 10px;
+    width: 50%;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: indianred;
+}
+
+.inputError:focus {
+    outline: 2px solid red;
+}

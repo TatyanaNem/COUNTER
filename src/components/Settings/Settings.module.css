@@ -1,0 +1,24 @@
+.settings {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #61dafb;
+    border-radius: 10px;
+}
+
+.settingsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.buttonsBlock {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    padding: 10px 40px;
+    border: 2px solid #61dafb;
+    border-radius: 10px;
+}
